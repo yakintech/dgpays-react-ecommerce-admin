@@ -1,5 +1,7 @@
 import AddCategory from "../views/category/AddCategory";
+import AddCustomer from "../views/customer/AddCustomer";
 import Dashboard from "../views/dashboard/Dashboard";
+import Parent from "../views/memo/Parent";
 import AddProduct from "../views/product/AddProduct";
 import Favorites from "../views/product/Favorites";
 import ProductList from "../views/product/ProductList";
@@ -37,7 +39,15 @@ export const routeConfig = [
         element: <AddCategory />
     },
     {
+        path: '/admin/addCustomer',
+        element: <AddCustomer />
+    },
+    {
         path: '/admin/favorites',
         element: <Favorites />
+    },
+    {
+        path: '/admin/memosample',
+        element: <Parent />
     },
 ]

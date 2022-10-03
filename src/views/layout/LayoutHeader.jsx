@@ -6,7 +6,7 @@ import { favoritesProductContext } from '../../contexts/favoritesProductContext'
 
 function LayoutHeader() {
 
-    const {favorites} = useContext(favoritesProductContext)
+    const { favorites } = useContext(favoritesProductContext)
 
     return (
         <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
@@ -23,6 +23,8 @@ function LayoutHeader() {
                 <Menu.Item key={5}><Link to='/admin/favorites'> Favorites<Badge count={favorites.length}></Badge></Link></Menu.Item>
                 <Menu.Item key={6}><Link to='/admin/addSupplier'> Add Supplier (Formik-Basic)</Link></Menu.Item>
                 <Menu.Item key={7}><Link to='/admin/addCategory'> Add Category (Formik-Yup)</Link></Menu.Item>
+                <Menu.Item key={8}><Link to='/admin/addCustomer'> Add Customer (React-Hook-Form)</Link></Menu.Item>
+                <Menu.Item key={9}><Link to='/admin/memoSample'>Memo Sample</Link></Menu.Item>
 
             </Menu>
         </Header>
