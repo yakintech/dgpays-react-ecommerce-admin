@@ -8,6 +8,8 @@ import ProductList from "../views/product/ProductList";
 import UpdateProduct from "../views/product/UpdateProduct";
 import SelectSample from "../views/samples/SelectSample";
 import AddSupplier from "../views/supplier/AddSupplier";
+import AddToDo from "../views/todo/AddToDo";
+import ToDos from "../views/todo/ToDos";
 
 export const routeConfig = [
     {
@@ -49,5 +51,13 @@ export const routeConfig = [
     {
         path: '/admin/memosample',
         element: <Parent />
+    },
+    {
+        path: '/admin/todos',
+        element: <ToDos />
+    },
+    {
+        path: '/admin/addtodo',
+        element: <AddToDo />
     },
 ]

@@ -10,9 +10,6 @@ function Child() {
     }
 
 
-
-
-
     return (<>
         {calcReport()}
         <div>Child</div>

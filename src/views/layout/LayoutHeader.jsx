@@ -25,6 +25,9 @@ function LayoutHeader() {
                 <Menu.Item key={7}><Link to='/admin/addCategory'> Add Category (Formik-Yup)</Link></Menu.Item>
                 <Menu.Item key={8}><Link to='/admin/addCustomer'> Add Customer (React-Hook-Form)</Link></Menu.Item>
                 <Menu.Item key={9}><Link to='/admin/memoSample'>Memo Sample</Link></Menu.Item>
+                <Menu.Item key={10}><Link to='/admin/todos'>Todos</Link></Menu.Item>
+                <Menu.Item key={11}><Link to='/admin/addtodo'>Add Todo</Link></Menu.Item>
+
 
             </Menu>
         </Header>
