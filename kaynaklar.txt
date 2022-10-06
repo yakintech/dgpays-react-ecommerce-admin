@@ -9,3 +9,18 @@ Redux Offical Döküman
 https://redux.js.org/
 
 
+React 18 Hooks
+https://betterprogramming.pub/5-new-hooks-in-react-18-300aa713cefe
+
+
+React Deploy
+https://create-react-app.dev/docs/deployment/
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04
+
+
+React Router Auth
+https://blog.logrocket.com/complete-guide-authentication-with-react-router-v6/
+
+
+
+
